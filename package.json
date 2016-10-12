@@ -1,0 +1,12 @@
+{
+  "name": "gdocs",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "cd tests/ && mocha && cd .."
+  },
+  "dependencies": {
+    "mongoose": "^4.6.3"
+  }
+}
