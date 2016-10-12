@@ -16,8 +16,12 @@ that would be:
 
 See [here](http://www.howtogeek.com/howto/windows-vista/run-a-command-as-administrator-from-the-windows-vista-run-box/) for how to run command as administrator on Windows
 
+Step 2 - Install Dependencies
+-----------
+
+`npm install`
+
 Step 2 - Run the Tests
 -----------
-Run
 
 `npm test`
