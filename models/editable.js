@@ -2,7 +2,9 @@ var mongoose = require("mongoose");
 var ObjectId = mongoose.Schema.Types.ObjectId;
 
 var EditableSchema = mongoose.Schema({
-  name: {type: String, required: true },
+  // An index is a special data structure that makes lookups fast.
+  // We want lookup-by-name to be fast, so we add an index to that field.
+  name: {type: String, required: true, index: true},
   isFolder: { type: Boolean, default: false },
   editors: [{type: ObjectId, ref: "User"}],
   parentFolder: { type: ObjectId, ref: "Editable", default: null},
