@@ -21,7 +21,7 @@ Step 2 - Install Dependencies
 
 `npm install`
 
-Step 2 - Run the Tests
+Step 3 - Run the Tests
 -----------
 
 `npm test`
