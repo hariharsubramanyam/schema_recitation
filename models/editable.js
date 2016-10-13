@@ -32,7 +32,7 @@ EditableSchema.statics.userEditables = function(userId, callback) {
  * The callback should be executed as callback(err).
  *
  * Hint: You may find the following useful:
- * https://docs.mongodb.com/manual/reference/method/db.collection.updateOne/#db.collection.updateOne
+ * http://mongoosejs.com/docs/api.html#model_Model.update
  */
 
 var EditableModel = mongoose.model("Editable", EditableSchema);
